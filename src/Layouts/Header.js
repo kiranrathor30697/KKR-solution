@@ -5,8 +5,8 @@ import '../css/common.css'
 export default function Header() {
   return (
     <>
-        <div className="p-3" style={{backgroundColor:"#17202A"}}>{/* 
-            <div className="container"> */}
+        <div className="p-3" style={{backgroundColor:"#17202A"}}>
+            <div className="container"> 
                 <Row>
                     <Col className="text-white ps-0" md={6} sm={4} xs={2}>
                         <Image className="text-center mt-3 ps-0" width="120"src={require('../img/header.png')} alt={"Image Not Found"}/>
@@ -21,8 +21,8 @@ export default function Header() {
                             <h6 className="ms-5 lh-1 k_fontfamily k_color text-end">State: 23-Madhya Pradesh</h6>
                         </div>
                     </Col>
-                </Row>{/* 
-            </div> */}
+                </Row> 
+            </div> 
         </div>
     </>
   )
