@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Row } from 'react-bootstrap'
+import { Col, Image, Row } from 'react-bootstrap'
 import '../css/common.css'
 
 export default function Header() {
@@ -9,7 +9,7 @@ export default function Header() {
             <div className="container">
                 <Row>
                     <Col className="text-white" md={6}>
-                        <img className="text-center mt-3" width="120"src={require('../img/header.png')} alt={"Image Not Found"}/>
+                        <Image className="text-center mt-3" width="120"src={require('../img/header.png')} alt={"Image Not Found"}/>
                     </Col>
                     <Col className="text-white d-flex justify-content-end k_fontfamily" md={6}>
                         <div>
