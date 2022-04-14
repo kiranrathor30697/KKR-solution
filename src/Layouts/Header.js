@@ -8,8 +8,8 @@ export default function Header() {
         <div className="p-3" style={{backgroundColor:"#17202A"}}>{/* 
             <div className="container"> */}
                 <Row>
-                    <Col className="text-white" md={6} sm={4} xs={2}>
-                        <Image className="text-center mt-3" width="120"src={require('../img/header.png')} alt={"Image Not Found"}/>
+                    <Col className="text-white ps-0" md={6} sm={4} xs={2}>
+                        <Image className="text-center mt-3 ps-0" width="120"src={require('../img/header.png')} alt={"Image Not Found"}/>
                     </Col>
                     <Col className="text-white d-flex justify-content-end k_fontfamily" md={6} sm={8} xs={10}>
                         <div>
